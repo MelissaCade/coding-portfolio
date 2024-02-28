@@ -2,10 +2,12 @@
   --deep-purple: rgb(37, 27, 37);
   --lilac: rgb(219, 208, 219);
 }
-
+html {
+  font-size: 62.5%;
+}
 header {
   display: flex;
-  height: 200px;
+  height: 22rem;
   background-color: var(--deep-purple);
   width: 100%;
   color: white;
@@ -17,217 +19,120 @@ header div {
 }
 
 header div img {
-  width: 160px;
-  margin: 20px;
+  width: 26%;
+  margin: 2rem;
 }
-
-header div h1 {
-  font-size: 500%;
-  align-self: center;
-  margin: 20px 20px 20px 40px;
+#name-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#name-title h1,
+#name-title h4 {
+  display: block;
+  font-size: 600%;
+  margin: 1rem 2rem 1rem 4rem;
   font-family: "Libre Baskerville", serif;
 }
-
-header ul {
+#name-title h4 {
+  font-size: 300%;
+}
+ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  min-width: 400px;
-  align-items: flex-end;
-  margin: 20px 40px 20px 20px;
   font-family: "DM Serif Display", serif;
 }
-
+header ul {
+  justify-content: space-between;
+  min-width: 40rem;
+  align-items: flex-end;
+  margin: 2rem 4rem 2rem 2rem;
+}
 header a {
   color: var(--lilac);
   text-decoration: none;
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
-header a:hover {
+a:hover {
   color: white;
 }
 
-#about-me {
+section {
   display: flex;
   width: 100%;
 }
-#about-me aside {
+aside {
   width: 10%;
   min-width: 10%;
   background-color: var(--lilac);
-  margin: 20px 0 0 0;
-  padding: 20px 5px 0 0;
+  margin: 2rem 0 0 0;
+  padding: 2rem 0.5rem 0 0;
   height: auto;
 }
+
 aside h2 {
   font-family: "Libre Baskerville", serif;
-  font-size: 250%;
+  font-size: 300%;
   text-align: right;
 }
 
 #about-paragraph {
-  margin: 20px 0 0 20px;
+  margin: 2rem 0 0 2rem;
   background-color: var(--lilac);
   height: auto;
   flex-grow: 1;
   font-family: "Rubik", sans-serif;
-  padding: 20px 40px 20px 20px;
-  font-size: 125%;
+  padding: 2rem 4rem 2rem 2rem;
+  font-size: 200%;
   line-height: 125%;
-}
-
-#work {
-  display: flex;
-  width: 100%;
-}
-
-#work aside {
-  width: 10%;
-  min-width: 10%;
-  background-color: var(--lilac);
-  margin: 20px 20px 0 0;
-  padding: 20px 5px 0 0;
-  height: auto;
 }
 #work-links {
   flex-wrap: wrap;
+  padding: 1rem 1rem 0 1rem;
 }
-
-.two-to-one-row {
+.a-row,
+.b-row {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  float: left;
 }
-.two-to-one-row a {
+.a-row a,
+.b-row a {
   display: flex;
   text-decoration: none;
   color: white;
 }
+.b-row a {
+  flex: 30%;
+}
+
 card {
-  border: 10px solid var(--deep-purple);
-}
-#bookwyrm-hoard {
+  border: 1rem solid var(--deep-purple);
+  margin: 1rem;
+  flex: 30%;
   display: inline-flex;
-  margin: 20px 0 0 0;
-  flex: 60%;
 }
-#b-h-title {
+h3 {
   align-self: flex-end;
   color: white;
   background-color: var(--deep-purple);
-  font-size: 200%;
-  padding: 20px;
+  font-size: 300%;
+  padding: 2rem 2rem 1rem 1rem;
   font-family: "Libre Baskerville", serif;
-  margin-right: -376px;
   z-index: 1;
-  min-width: 336px;
+  min-width: 35rem;
+  margin-right: -38rem;
 }
 
-#meal-planning {
-  display: inline-flex;
-  margin: 20px 20px 0 20px;
-  flex: 30%;
-}
-#m-p-title {
-  align-self: flex-end;
-  color: white;
-  background-color: var(--deep-purple);
-  font-size: 200%;
-  padding: 20px;
-  font-family: "Libre Baskerville", serif;
-  margin-right: -371px;
-  z-index: 1;
-  min-width: 331px;
-}
-.one-to-one-to-one-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  float: left;
-}
-.one-to-one-to-one-row a {
-  display: flex;
-  text-decoration: none;
-  color: white;
-  flex: 30%;
-}
-#css-code {
-  display: inline-flex;
-  margin: 20px 20px 0 0;
-}
-#css-title {
-  align-self: flex-end;
-  color: white;
-  background-color: var(--deep-purple);
-  font-size: 200%;
-  padding: 20px;
-  font-family: "Libre Baskerville", serif;
-  margin-right: -371px;
-  z-index: 1;
-  min-width: 331px;
-}
-#m-mult {
-  display: inline-flex;
-  margin: 20px 20px 0 0;
-}
-#mm-title {
-  align-self: flex-end;
-  color: white;
-  background-color: var(--deep-purple);
-  font-size: 200%;
-  padding: 20px;
-  font-family: "Libre Baskerville", serif;
-  margin-right: -371px;
-  z-index: 1;
-  min-width: 331px;
-}
-#kbc {
-  display: inline-flex;
-  margin: 20px 20px 0 0;
-}
-#kbc-title {
-  align-self: flex-end;
-  color: white;
-  background-color: var(--deep-purple);
-  font-size: 200%;
-  padding: 20px;
-  font-family: "Libre Baskerville", serif;
-  margin-right: -371px;
-  z-index: 1;
-  min-width: 331px;
-}
-#contact {
-  width: 100%;
-  display: flex;
-}
-#contact aside {
-  width: 10%;
-  min-width: 10%;
-  background-color: var(--lilac);
-  margin: 20px 20px 0 0;
-  padding: 20px 5px 0 0;
-  height: auto;
-  display: inline-flex;
-}
-#c-aside-h2 {
-  font-size: 200%;
-}
 #contact ul {
   justify-content: space-around;
-  list-style: none;
-  display: flex;
   width: 100%;
   height: auto;
-  margin: 20px 0 0 0;
-  font-family: "DM Serif Display", serif;
-  font-size: 200%;
+  margin: 2rem 0 0 2rem;
+  padding: 2rem;
+  font-size: 250%;
   background-color: var(--lilac);
-}
-
-#contact li {
-  margin: 20px;
 }
 
 #contact a {
