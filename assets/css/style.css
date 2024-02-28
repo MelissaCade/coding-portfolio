@@ -1,0 +1,240 @@
+:root {
+  --deep-purple: rgb(37, 27, 37);
+  --lilac: rgb(219, 208, 219);
+}
+
+header {
+  display: flex;
+  height: 200px;
+  background-color: var(--deep-purple);
+  width: 100%;
+  color: white;
+  justify-content: space-between;
+}
+
+header div {
+  display: flex;
+}
+
+header div img {
+  width: 160px;
+  margin: 20px;
+}
+
+header div h1 {
+  font-size: 500%;
+  align-self: center;
+  margin: 20px 20px 20px 40px;
+  font-family: "Libre Baskerville", serif;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+  align-items: flex-end;
+  margin: 20px 40px 20px 20px;
+  font-family: "DM Serif Display", serif;
+}
+
+header a {
+  color: var(--lilac);
+  text-decoration: none;
+  font-size: 32px;
+}
+
+header a:hover {
+  color: white;
+}
+
+#about-me {
+  display: flex;
+  width: 100%;
+}
+#about-me aside {
+  width: 10%;
+  min-width: 10%;
+  background-color: var(--lilac);
+  margin: 20px 0 0 0;
+  padding: 20px 5px 0 0;
+  height: auto;
+}
+aside h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 250%;
+  text-align: right;
+}
+
+#about-paragraph {
+  margin: 20px 0 0 20px;
+  background-color: var(--lilac);
+  height: auto;
+  flex-grow: 1;
+  font-family: "Rubik", sans-serif;
+  padding: 20px 40px 20px 20px;
+  font-size: 125%;
+  line-height: 125%;
+}
+
+#work {
+  display: flex;
+  width: 100%;
+}
+
+#work aside {
+  width: 10%;
+  min-width: 10%;
+  background-color: var(--lilac);
+  margin: 20px 20px 0 0;
+  padding: 20px 5px 0 0;
+  height: auto;
+}
+#work-links {
+  flex-wrap: wrap;
+}
+
+.two-to-one-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  float: left;
+}
+.two-to-one-row a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+card {
+  border: 10px solid var(--deep-purple);
+}
+#bookwyrm-hoard {
+  display: inline-flex;
+  margin: 20px 0 0 0;
+  flex: 60%;
+}
+#b-h-title {
+  align-self: flex-end;
+  color: white;
+  background-color: var(--deep-purple);
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  margin-right: -376px;
+  z-index: 1;
+  min-width: 336px;
+}
+
+#meal-planning {
+  display: inline-flex;
+  margin: 20px 20px 0 20px;
+  flex: 30%;
+}
+#m-p-title {
+  align-self: flex-end;
+  color: white;
+  background-color: var(--deep-purple);
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  margin-right: -371px;
+  z-index: 1;
+  min-width: 331px;
+}
+.one-to-one-to-one-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  float: left;
+}
+.one-to-one-to-one-row a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  flex: 30%;
+}
+#css-code {
+  display: inline-flex;
+  margin: 20px 20px 0 0;
+}
+#css-title {
+  align-self: flex-end;
+  color: white;
+  background-color: var(--deep-purple);
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  margin-right: -371px;
+  z-index: 1;
+  min-width: 331px;
+}
+#m-mult {
+  display: inline-flex;
+  margin: 20px 20px 0 0;
+}
+#mm-title {
+  align-self: flex-end;
+  color: white;
+  background-color: var(--deep-purple);
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  margin-right: -371px;
+  z-index: 1;
+  min-width: 331px;
+}
+#kbc {
+  display: inline-flex;
+  margin: 20px 20px 0 0;
+}
+#kbc-title {
+  align-self: flex-end;
+  color: white;
+  background-color: var(--deep-purple);
+  font-size: 200%;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  margin-right: -371px;
+  z-index: 1;
+  min-width: 331px;
+}
+#contact {
+  width: 100%;
+  display: flex;
+}
+#contact aside {
+  width: 10%;
+  min-width: 10%;
+  background-color: var(--lilac);
+  margin: 20px 20px 0 0;
+  padding: 20px 5px 0 0;
+  height: auto;
+  display: inline-flex;
+}
+#c-aside-h2 {
+  font-size: 200%;
+}
+#contact ul {
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0 0;
+  font-family: "DM Serif Display", serif;
+  font-size: 200%;
+  background-color: var(--lilac);
+}
+
+#contact li {
+  margin: 20px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact a:hover {
+  color: white;
+}
