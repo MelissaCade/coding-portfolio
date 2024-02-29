@@ -19,8 +19,9 @@ header div {
 }
 
 header div img {
-  width: 26%;
+  width: 18rem;
   margin: 2rem;
+  min-width: 18rem;
 }
 #name-title {
   display: flex;
@@ -121,8 +122,8 @@ h3 {
   padding: 2rem 2rem 1rem 1rem;
   font-family: "Libre Baskerville", serif;
   z-index: 1;
-  min-width: 35rem;
-  margin-right: -38rem;
+  min-width: 32rem;
+  margin-right: -35rem;
 }
 
 #contact ul {
@@ -142,4 +143,148 @@ h3 {
 
 #contact a:hover {
   color: white;
+}
+footer {
+  height: 3rem;
+  background-color: var(--deep-purple);
+  margin: 2rem 0 0 0;
+}
+
+@media (max-width: 1294px) {
+  h3 {
+    font-size: 200%;
+    min-width: 22rem;
+    margin-right: -25rem;
+  }
+  aside h2 {
+    font-size: 200%;
+  }
+  #name-title h1,
+  #name-title h4 {
+    margin: 1rem 2rem 1rem 0;
+    font-size: 400%;
+  }
+
+  #name-title h4 {
+    font-size: 300%;
+  }
+}
+
+@media (max-width: 1060px) {
+  #name-title h1 {
+    font-size: 300%;
+  }
+  #name-title h4 {
+    font-size: 200%;
+  }
+  header a {
+    font-size: 2.6rem;
+  }
+  header ul {
+    min-width: 30rem;
+  }
+}
+
+@media (max-width: 964px) {
+  card {
+    border: 1rem solid var(--deep-purple);
+    flex: 50%;
+    display: inline-flex;
+  }
+  .a-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .b-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 816px) {
+  header ul {
+    min-width: 10rem;
+    display: flex;
+    flex-direction: column;
+  }
+  header a {
+    justify-content: space-around;
+  }
+  #name-title h1,
+  #name-title h4 {
+    margin: 1rem 2rem 1rem 0;
+  }
+  aside {
+    width: 100%;
+    background-color: var(--lilac);
+    margin: 1rem 0 0 0;
+    height: 2.4rem;
+    padding: 2rem 0 2rem 0;
+  }
+  aside h2 {
+    font-size: 200%;
+    text-align: left;
+    margin: 0 0 0 2rem;
+  }
+  #about-me,
+  #work,
+  #contact {
+    display: block;
+  }
+  #work-links {
+    margin: 0;
+    padding: 0;
+  }
+  .a-row,
+  .b-row {
+    padding: 0;
+    margin: 0;
+  }
+  card {
+    margin: 1rem 1rem 0 1rem;
+  }
+  #about-paragraph,
+  #contact ul,
+  footer {
+    margin: 1rem 0 0 0;
+  }
+  #contact ul {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 2rem 0;
+  }
+}
+@media (max-width: 624px) {
+  header {
+    display: block;
+    height: auto;
+    padding: 0 0 0.2rem 0;
+  }
+  #name-title,
+  #photo-name {
+    display: block;
+    text-align: center;
+  }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  header li {
+    display: inline;
+  }
+  #about-paragraph {
+    font-size: 175%;
+    line-height: 125%;
+  }
+  #contact ul {
+    font-size: 200%;
+    display: block;
+    padding: 2rem 0 2rem 0;
+  }
+  #contact li {
+    margin: 0 0 0 2rem;
+  }
 }
