@@ -1,6 +1,30 @@
 # coding-portfolio
 
-A portfolio of work and coding skills
+A portfolio of my work and coding skills for prospective employers.
+
+## Description
+
+I am currently enrolled in a fullstack coding bootcamp through the University of Denver. When I graduate, I will have the skills and knowledge to pursue a career in web development. I will also be pursuing my own projects. This is a professional portfolio for future employers and clients. It will highlight the work I have done and the skills I have gained.
+
+## Link to Live Page
+
+
+
+## Screenshot of site
+
+![./assets/images/screenshot.png] 
+
+## Installation
+
+N/A
+
+## Usage
+
+This is a student's portfolio page.
+
+## Credits
+
+Photo credits:
 
 Photo by <a href="https://unsplash.com/@inakihxz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Iñaki del Olmo</a> on <a href="https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-NIJuEQw0RKg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
