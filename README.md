@@ -8,11 +8,11 @@ I am currently enrolled in a fullstack coding bootcamp through the University of
 
 ## Link to Live Page
 
-
+https://melissacade.github.io/coding-portfolio/
 
 ## Screenshot of site
 
-![./assets/images/screenshot.png] 
+![screenshot](assets/images/screenshot.png)
 
 ## Installation
 
